@@ -1,3 +1,7 @@
+Figma: https://www.figma.com/design/Giqgji0ooM3zSFYDwHoGTh/Untitled?node-id=0-1&t=Rc4xDlm05krN0SqY-1
+
+Diagrama do BD: https://lucid.app/lucidchart/05d394d0-0efe-446f-8485-f9229006a864/edit?viewport_loc=-186%2C99%2C1623%2C831%2C0_0&invitationId=inv_d02e33d4-1893-41e0-953b-4fb02afb3f85
+
 Nomes:
 
 - BreShow
