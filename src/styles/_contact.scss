@@ -1,0 +1,38 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding:  24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+    color: #fff;
+    background-color: #000;
+
+    &__contato {
+        list-style: none;
+        display: flex;
+        
+        &__item {
+            padding-left: 16px;
+        }
+    }
+
+        &__social-media {
+            list-style: none;
+            display: flex;
+            
+            &__item {
+                padding-left: 16px;
+            }
+
+            &__icon {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    
+}
