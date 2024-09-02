@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "**Projeto** - Esboço inicial do front da do projeto - Neste projeto inicial foi ultilizado o parcel como \"empacotador\"",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0",

@@ -1,16 +1,100 @@
 @use '_navBar.scss';
 @use '_contact.scss';
 
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+  }
+
+//   TEMPORARIO v
+.grid-guide {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0; 
+    width: 100%; 
+    height: 100vh; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000;
+    padding: 0% 10%; 
+    box-sizing: border-box;
+}
+
+.column {
+    background-color: rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    height: 100%; 
+}
+// TEMPORARIO ^
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: aqua;
-    
+$hero-background: url('../../src/Images/Foto-banner.png');
+.hero-banner {
+  width: 100%;
+  height: 500px; 
+  background-image: $hero-background;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  color: white; 
+  text-align: center;
 }
 
+.hero-content {
+  max-width: 600px; 
+  padding: 20px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.hero-button:hover {
+  background-color: #e1e1e1;
+}
+
+// EU ESTOU TENTANDO COLOCAR 'ROUPAS' ALINHADO COM A PRIMEIRA LINHA, MAS NÃO CONSEGUI
+
+.nav-bar {
+    padding: 0;
 
 
+    &__links {
+        list-style: none;
+        padding-left: 0;
+        margin: 0; 
+        display: flex; 
+        gap: 20px; 
+    }
+
+    &__links__item {
+        padding: 0;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &__nav-link {
+            text-decoration: none;
+            padding: 10px 15px; 
+            color: inherit; 
+        }
+    }
+}

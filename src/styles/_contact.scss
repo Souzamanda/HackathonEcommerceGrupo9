@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0;
-    padding:  24px;
+    // padding:  24px;
+    padding: 10px 0px;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -15,15 +16,17 @@
     &__contato {
         list-style: none;
         display: flex;
+        padding-left: 10%;
         
-        &__item {
-            padding-left: 16px;
-        }
+        // &__item {
+        //     padding-left: 16px;
+        // }
     }
 
         &__social-media {
             list-style: none;
             display: flex;
+            padding: 0 10% 0 0;
             
             &__item {
                 padding-left: 16px;
