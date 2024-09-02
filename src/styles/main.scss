@@ -1,5 +1,6 @@
-@use '_navBar.scss';
-@use '_contact.scss';
+@use 'navBar.scss';
+@use 'contact.scss';
+@use 'hero';
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: rgb(178, 243, 243);
     
 }
 
