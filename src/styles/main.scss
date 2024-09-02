@@ -1,6 +1,7 @@
 @use 'navBar.scss';
 @use 'contact.scss';
 @use 'hero';
+@use 'login';
 
 * {
     margin: 0;
@@ -9,9 +10,10 @@
 }
 
 body {
-    background-color: rgb(178, 243, 243);
+    background-color: rgb(255, 255, 255);
     
 }
+
 
 
 
