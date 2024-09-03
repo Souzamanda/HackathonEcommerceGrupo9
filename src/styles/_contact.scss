@@ -3,26 +3,25 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0;
-    // padding:  24px;
-    padding: 10px 0px;
-    font-size: 16px;
+    padding: 20px 0px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px; 
     letter-spacing: 0.2px;
-    color: #fff;
-    background-color: #000;
+    color: var(--background-color);
+    background-color: var(--primary-color);
 
     &__contato {
         list-style: none;
         display: flex;
-        padding-left: 10%;
+        padding-left: 5%;
     }
 
         &__social-media {
             list-style: none;
             display: flex;
-            padding: 0 10% 0 0;
+            padding: 0 5% 0 0;
             
             &__item {
                 padding-left: 16px;
@@ -30,7 +29,7 @@
 
             &__icon {
                 text-decoration: none;
-                color: #fff;
+                color: var(--background-color);
             }
         }
     

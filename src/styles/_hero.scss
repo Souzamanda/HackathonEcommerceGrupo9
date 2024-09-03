@@ -1,48 +1,70 @@
 .hero {
-    min-height: 80vh;
-    background-image: url(../Images/Foto-banner.png);
-    max-height: 90vh;
-    text-align: start;
+    // flex-direction: column;
+
+    // width: 100%;
+    min-height: 50vh;
+    max-height: 60vh;
+    background-image: url('../Images/Foto-banner.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: start;
-    background-repeat: no-repeat;
-    background-size: cover;
+    align-items: start; 
+    justify-content: flex-start; 
+    text-align: start;
 
     &__conteudo {
         max-width: 640px;
-        padding: 16vw;
+        // padding: 16vw;
+        padding: 14vw 5%;
         display: flex;
 
+        &__title {
+            text-transform: uppercase;
+            font-family: "Permanent Marker", cursive;
+            font-size: 100px;
+            color: var(--secondary-color);
+        }
+
         &__sub-title {
-            color: #fff;
-            padding: 16px;
+            color: var(--background-color);
+            padding: 12px 0;
+            letter-spacing: 0.9px;
+            font-size: 16px;
         }
 
         &__lista {
             display: flex;
             list-style: none;
+            padding: 0;
+            gap: 10px;
 
             &__item {
-                padding: 16px;
+                padding: 16px 16px 16px 0;
             }
 
             &__btn {
+                font-family: "Inknut Antiqua", serif;
+                color: var(--primary-color);
+                background-color: var(--background-color);
+                border-style: none;
                 border-radius: 8px;
-                font-size: 18px;
+                font-size: 16px;
                 display: block;
                 height: 60px;
-                width: 120px;
+                width: 140px;
                 cursor: pointer;
                 font-weight: bold;
-                
+
+                &:hover {
+                    transform: scale(1.05); 
+                }
             }
         }
 
-        &__marca {
-            max-width: 320px;
-            margin: 0 auto 38px;
-        }
+        // &__marca {
+        //     // max-width: 320px;
+        //     // margin: 0 auto 38px;
+        // }
     }
 }

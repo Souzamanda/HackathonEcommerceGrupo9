@@ -2,7 +2,10 @@
 @use 'contact.scss';
 @use 'hero';
 @use 'login';
+@use 'variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -11,8 +14,8 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    font-family: 'Amaranth', sans-serif;
+    background-color: var(--background-color);
+    font-family: "Inknut Antiqua", serif;
 }
 
 header {
@@ -32,7 +35,7 @@ header {
     left: 0;
     pointer-events: none;
     z-index: 1000;
-    padding: 0% 10%; 
+    padding: 0% 5%; 
     box-sizing: border-box;
 }
 
