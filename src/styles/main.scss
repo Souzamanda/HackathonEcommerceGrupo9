@@ -1,5 +1,5 @@
-@use '_navBar.scss';
-@use '_contact.scss';
+@use 'navBar.scss';
+@use 'contact.scss';
 
 html, body {
     width: 100%;
@@ -29,6 +29,8 @@ html, body {
     height: 100%; 
 }
 // TEMPORARIO ^
+@use 'hero';
+@use 'login';
 
 * {
     margin: 0;
@@ -98,3 +100,4 @@ $hero-background: url('../../src/Images/Foto-banner.png');
         }
     }
 }
+

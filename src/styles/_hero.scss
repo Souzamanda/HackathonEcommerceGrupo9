@@ -1,0 +1,48 @@
+.hero {
+    min-height: 80vh;
+    background-image: url(../Images/Foto\ banner.png);
+    max-height: 90vh;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__conteudo {
+        max-width: 640px;
+        padding: 16vw;
+        display: flex;
+
+        &__sub-title {
+            color: #fff;
+            padding: 16px;
+        }
+
+        &__lista {
+            display: flex;
+            list-style: none;
+
+            &__item {
+                padding: 16px;
+            }
+
+            &__btn {
+                border-radius: 8px;
+                font-size: 18px;
+                display: block;
+                height: 60px;
+                width: 120px;
+                cursor: pointer;
+                font-weight: bold;
+                
+            }
+        }
+
+        &__marca {
+            max-width: 320px;
+            margin: 0 auto 38px;
+        }
+    }
+}

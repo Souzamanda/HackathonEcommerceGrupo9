@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="cabecario">
+        <p><a class="cabecario__link" href="index.html"><i class="bi bi-arrow-left"></i></a></p>
+        <h1><a class="cabecario__link cabecario__title" href="index.html">Breshow</a></h1>
+    </header>
+    <div class="conteudo">
+        <ul class="conteudo__lista">
+            <li class="conteudo__lista__item">
+                <h2 class="conteudo__lista__item__titulo">LOGIN</h2>
+                <form class="conteudo__lista__form">
+                    <input class="conteudo__lista__item__input" id="email" type="email" placeholder="Email">
+                    <input class="conteudo__lista__item__input" id="senha" type="password" placeholder="Senha">
+                    <button type="submit">Entrar</button>
+                </form>
+                <a href="">Esqueci a senha</a>
+            </li>
+            <ul class="conteudo__lista">
+                <li class="conteudo__lista__item">
+                    <h2 class="conteudo__lista__item__titulo">Cadastre-se</h2>
+                    <form class="conteudo__lista__form">
+                        <input class="conteudo__lista__item__input" id="email" type="email" placeholder="Email">
+                        <input class="conteudo__lista__item__input" id="nome" type="text" placeholder="Nome">
+                        <input class="conteudo__lista__item__input" id="sobrenome" type="text" placeholder="Sobrenome">
+                        <input class="conteudo__lista__item__input" id="nascimento" type="number" placeholder="Data de nascimento">
+                        <input class="conteudo__lista__item__input" id="senha" type="password" placeholder="Senha">
+                        <input class="conteudo__lista__item__input" id="senha" type="password" placeholder="Confirmar senha">
+                        <p>Tenho interesse em peças:
+                            <input type="radio" name="radsex" id="masc" checked>
+                            <label for="masc">Masculinas</label>
+                            <input type="radio" name="radsex" id="fem">
+                            <label for="fem">Femininas</label>
+                        </p>
+                        <label for="aceito-termos">Li e aceito os termos de uso:</label>
+                        <input type="checkbox" id="aceito-termos" name="aceito-termos">
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                    <a href="">Esqueci a senha</a>
+                </li>
+        </ul>
+    </div>
+</body>
+</html>
