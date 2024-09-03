@@ -1,0 +1,89 @@
+.home-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &__text,
+  &__links,
+  .cta-brands {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  &__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__container {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .cta-brands img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+.home-cta__links {
+  display: flex;
+  justify-content: center; 
+}
+
+.home-cta__ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.home-cta__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px; 
+  height: 150px;
+  margin: 0 10px; 
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  &:nth-child(1) {
+    background-image: url('path/to/your/image1.jpg'); // Substitua pelo caminho da imagem para "Camisetas"
+  }
+
+  &:nth-child(2) {
+    background-image: url('path/to/your/image2.jpg'); // Substitua pelo caminho da imagem para "Calças"
+  }
+
+  &:nth-child(3) {
+    background-image: url('path/to/your/image3.jpg'); // Substitua pelo caminho da imagem para "Sapatos"
+  }
+}
+
+.home-cta__link {
+  text-decoration: none;
+  color: #fff; // Cor do texto
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
