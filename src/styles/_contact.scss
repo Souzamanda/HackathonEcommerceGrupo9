@@ -1,6 +1,6 @@
 .contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0;
     // padding:  24px;
@@ -17,10 +17,6 @@
         list-style: none;
         display: flex;
         padding-left: 10%;
-        
-        // &__item {
-        //     padding-left: 16px;
-        // }
     }
 
         &__social-media {
