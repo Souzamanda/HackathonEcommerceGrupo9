@@ -1,0 +1,43 @@
+.discounts {
+  padding: 5% 12.5%;
+  font-size: 24px;
+
+  
+  &__ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+    gap: 4%; 
+
+  }
+
+  &__value {
+    padding: 0;
+    list-style: none;
+    align-items: space-between; 
+    
+    &__link {
+      text-decoration: none;
+      font-family: "Inknut Antiqua", serif;
+      color: var(--background-color);
+      background-color: var(--secondary-color);
+      border-style: none;
+      border-radius: 8px;
+      font-size: 30px;
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      height: 180px;
+      width: 250px;
+      cursor: pointer;
+      font-weight: bold;
+      text-align: center;
+
+      &:hover{
+        transform: scale(1.05); 
+      }
+    }
+  }
+}
