@@ -3,45 +3,50 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-
+  justify-content: space-between;
+  width: 100vw; 
+  
   &__text,
   &__links,
   .cta-brands {
     margin-bottom: 20px;
   }
-
+  
   &__title {
     font-size: 2rem;
     margin-bottom: 10px;
   }
-
+  
   &__subtitle {
     font-size: 1.5rem;
     margin-bottom: 20px;
   }
-
+  
   &__bg {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     margin: 0 10px;
     border-radius: 15px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    transition: transform 0.3s ease, filter 0.3s ease;
+    
     &:hover {
-      // transform: scale(1.05); 
       filter: brightness(0.7) saturate(0.5);
     }
+    &:active {
+      transform: scale(0.95);
+    }
   }
-
+  
   .link-camisetas {
     background-image: url('../Images/camiseta.jpg');
   }
-
+  
   .link-calcas {
     background-image: url('../Images/calca-amarela.jpg');
   }
@@ -51,20 +56,20 @@
   }
 
   &__link {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--background-color);
     text-decoration: none;
     text-align: center;
   }
 
-  .cta-brands img {
-    max-width: 100%;
-    height: auto;
-  }
+  // .cta-brands img {
+  //   max-width: 100%;
+  //   height: auto;
+  // }
 
   &__links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
