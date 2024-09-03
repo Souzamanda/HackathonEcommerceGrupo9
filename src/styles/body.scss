@@ -10,11 +10,12 @@
   &__links,
   .cta-brands {
     margin-bottom: 20px;
+    margin-top: 40px;
   }
   
   &__title {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   &__subtitle {
@@ -71,5 +72,6 @@
   &__links {
     display: flex;
     justify-content: space-between;
+    gap: 10vh;
   }
 }
