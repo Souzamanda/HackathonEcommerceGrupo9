@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="cabecario">
-        <p><a class="cabecario__link" href="index.html"><i class="bi bi-arrow-left"></i></a></p>
+        <a class="cabecario__link__icon" href="index.html"><i class="bi bi-arrow-left"></i></a>
         <h1><a class="cabecario__link cabecario__title" href="index.html">Breshow</a></h1>
     </header>
     <div class="conteudo">
@@ -19,7 +19,7 @@
                 <form class="conteudo__lista__form">
                     <input class="conteudo__lista__item__input" id="email" type="email" placeholder="Email">
                     <input class="conteudo__lista__item__input" id="senha" type="password" placeholder="Senha">
-                    <button type="submit">Entrar</button>
+                    <button class="conteudo__lista__btn" type="submit">Entrar</button>
                 </form>
                 <a href="">Esqueci a senha</a>
             </li>
@@ -33,17 +33,21 @@
                         <input class="conteudo__lista__item__input" id="nascimento" type="number" placeholder="Data de nascimento">
                         <input class="conteudo__lista__item__input" id="senha" type="password" placeholder="Senha">
                         <input class="conteudo__lista__item__input" id="senha" type="password" placeholder="Confirmar senha">
-                        <p>Tenho interesse em peças:
-                            <input type="radio" name="radsex" id="masc" checked>
-                            <label for="masc">Masculinas</label>
-                            <input type="radio" name="radsex" id="fem">
-                            <label for="fem">Femininas</label>
-                        </p>
-                        <label for="aceito-termos">Li e aceito os termos de uso:</label>
-                        <input type="checkbox" id="aceito-termos" name="aceito-termos">
-                        <button type="submit">Cadastrar</button>
+                        <div class="conteudo__radio">
+                            <p>Tenho interesse em peças:
+                            </p>
+                                <input class="conteudo__radio__rad" type="radio" name="radsex" id="masc" checked>
+                                <label class="conteudo__radio__label" for="masc">Masculinas</label>
+                                <input class="conteudo__radio__rad" type="radio" name="radsex" id="fem">
+                                <label class="conteudo__radio__label" for="fem">Femininas</label>
+                        </div>
+                        <div class="conteudo__checkbox">
+                            <input class="conteudo__checkbox__check" type="checkbox" id="aceito-termos" name="aceito-termos">
+                            <label class="conteudo__checkbox__label" for="aceito-termos">Li e aceito os <a href="#">termos de uso:</a></label>
+                        </div>
+                        <button class="conteudo__lista__btn" type="submit">Cadastrar</button>
                     </form>
-                    <a href="">Esqueci a senha</a>
+                    
                 </li>
         </ul>
     </div>
